@@ -30,25 +30,25 @@ This project uses the SMS Spam Collection dataset.
 
 ### 🔄 Project Steps
 
-**1️ Load the dataset**
+**1️. Load the dataset**
 
-**2️ Check missing values**
+**2️. Check missing values**
 
-**3️ Remove duplicate messages**
+**3️. Remove duplicate messages**
 
-**4️ Convert labels into numbers**
+**4️. Convert labels into numbers**
 
-**5️ Split the dataset**
+**5️. Split the dataset**
 
-**6️ Apply CountVectorizer**
+**6️. Apply CountVectorizer**
 
-**7️ Train Naive Bayes model**
+**7️. Train Naive Bayes model**
 
-**8️ Make predictions**
+**8️. Make predictions**
 
-**9️ Check accuracy**
+**9️. Check accuracy**
 
-**10 Check confusion matrix**
+**10. Check confusion matrix**
 
 
 #
