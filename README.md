@@ -94,3 +94,28 @@ The model correctly classified approximately 98.55% of the test messages.
 
 
 #
+
+
+### Confusion Matrix
+
+The confusion matrix shows the correctly and incorrectly classified Ham and Spam messages.
+
+- 891 → Ham correctly classified
+- 128 → Spam correctly classified
+- 5 → Ham incorrectly classified as Spam
+- 10 → Spam incorrectly classified as Ham
+
+
+#
+
+
+### 🧪 Message Testing
+
+A new SMS message was tested using the trained model.
+
+Example: text```Congratulations! You have won a free prize```
+
+Prediction: ```Spam```
+
+
+#
