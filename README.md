@@ -68,14 +68,29 @@ This project uses the SMS Spam Collection dataset.
 
 ### 🔤 Text Vectorization
 
-CountVectorizer converts SMS text into numerical word-count features so the Machine Learning model can process the text.
+CountVectorizer converts the SMS text into numerical word-count features. This allows the Machine Learning model to understand and process the text data.
 
 
-from sklearn.feature_extraction.text import CountVectorizer
-
-vectorizer = CountVectorizer()
-
-X_train = vectorizer.fit_transform(X_train)
-X_test = vectorizer.transform(X_test)
+#
 
 
+### 🤖 Machine Learning Model
+
+***Multinomial Naive Bayes*** is used to classify the SMS messages into Spam and Ham categories.
+
+It is suitable for text classification because it works well with word-count-based features.
+
+
+#
+
+
+### 📊 Model Performance
+
+**Accuracy**
+
+98.55%
+
+The model correctly classified approximately 98.55% of the test messages.
+
+
+#
