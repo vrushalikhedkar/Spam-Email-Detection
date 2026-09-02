@@ -113,10 +113,17 @@ The confusion matrix shows the correctly and incorrectly classified Ham and Spam
 
 A new SMS message was tested using the trained model.
 
-Example: 
-```text Congratulations! You have won a free prize```
+Example: ```Congratulations! You have won a free prize```
 
 Prediction: ```Spam```
+
+
+#
+
+
+### 📌 Conclusion
+
+The SMS Spam Detection model achieved 98.55% accuracy and successfully classified SMS messages into Spam and Ham categories using CountVectorizer and Multinomial Naive Bayes.
 
 
 #
