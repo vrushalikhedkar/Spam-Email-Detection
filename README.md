@@ -30,14 +30,22 @@ This project uses the SMS Spam Collection dataset.
 
 ### 🔄 Project Steps
 
-1. Load the dataset
-2. Check missing values
-Remove duplicate messages
-Convert labels into numbers
-Split data into training and testing sets
-Convert text into numerical features using CountVectorizer
-Train Multinomial Naive Bayes model
-Predict Spam/Ham
-Check Accuracy
-Check Confusion Matrix
-Test a new SMS message
+**1️⃣ Load the dataset**
+
+**2️⃣ Check missing values**
+
+**3️⃣ Remove duplicate messages**
+
+**4️⃣ Convert labels into numbers**
+
+**5️⃣ Split the dataset**
+
+**6️⃣ Apply CountVectorizer**
+
+**7️⃣ Train Naive Bayes model**
+
+**8️⃣ Make predictions**
+
+**9️⃣ Check accuracy**
+
+**🔟 Check confusion matrix**
