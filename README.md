@@ -114,7 +114,7 @@ The confusion matrix shows the correctly and incorrectly classified Ham and Spam
 A new SMS message was tested using the trained model.
 
 Example: 
-text```Congratulations! You have won a free prize```
+```text Congratulations! You have won a free prize```
 
 Prediction: ```Spam```
 
