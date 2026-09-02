@@ -86,7 +86,7 @@ It is suitable for text classification because it works well with word-count-bas
 
 ### 📊 Model Performance
 
-**Accuracy**
+***Accuracy***
 
 98.55%
 
@@ -126,4 +126,3 @@ Prediction: ```Spam```
 The SMS Spam Detection model achieved 98.55% accuracy and successfully classified SMS messages into Spam and Ham categories using CountVectorizer and Multinomial Naive Bayes.
 
 
-#
