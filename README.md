@@ -16,3 +16,13 @@ The goal of this project is to automatically identify whether an SMS message is 
 - **Ham** → normal/legitimate messages
 
 #
+
+
+### 📂 Dataset
+
+This project uses the SMS Spam Collection dataset.
+
+- ```ham``` → Normal message
+- ```spam``` → Spam message
+
+#
