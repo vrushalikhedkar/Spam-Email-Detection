@@ -30,22 +30,52 @@ This project uses the SMS Spam Collection dataset.
 
 ### 🔄 Project Steps
 
-**1️⃣ Load the dataset**
+**1️ Load the dataset**
 
-**2️⃣ Check missing values**
+**2️ Check missing values**
 
-**3️⃣ Remove duplicate messages**
+**3️ Remove duplicate messages**
 
-**4️⃣ Convert labels into numbers**
+**4️ Convert labels into numbers**
 
-**5️⃣ Split the dataset**
+**5️ Split the dataset**
 
-**6️⃣ Apply CountVectorizer**
+**6️ Apply CountVectorizer**
 
-**7️⃣ Train Naive Bayes model**
+**7️ Train Naive Bayes model**
 
-**8️⃣ Make predictions**
+**8️ Make predictions**
 
-**9️⃣ Check accuracy**
+**9️ Check accuracy**
 
-**🔟 Check confusion matrix**
+**10 Check confusion matrix**
+
+
+#
+
+
+### 🔢 Label Mapping
+
+{'ham': 0, 'spam': 1}
+
+- 0 = Ham
+
+- 1 = Spam
+
+
+#
+
+
+### 🔤 Text Vectorization
+
+CountVectorizer converts SMS text into numerical word-count features so the Machine Learning model can process the text.
+
+
+from sklearn.feature_extraction.text import CountVectorizer
+
+vectorizer = CountVectorizer()
+
+X_train = vectorizer.fit_transform(X_train)
+X_test = vectorizer.transform(X_test)
+
+
